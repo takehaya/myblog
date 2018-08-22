@@ -34,7 +34,7 @@
           </div>
           <footer>
             <ul class="actions">
-              <a href="{{post.url}}" class="raisedbutton material" role="button" aria-pressed="true">Continue Reading</a>
+              <a href="{{ site.baseurl }}{{post.url}}" class="raisedbutton material" role="button" aria-pressed="true">Continue Reading</a>
             </ul>
           </footer>
         </article>
@@ -46,10 +46,11 @@
       </div>
       <div class="hidden-sm col-md-1"></div>
     </div>
+    {% include social.html %}
+    {% include disqus.html %}
   </div>
 
-  {% include social.html %}
-  {% include disqus.html %}
+
   {% include footer.html %}
 
 </body>

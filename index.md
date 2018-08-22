@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to takemioIOblog!
+title: Welcome to takemioIO blog!
 ---
 ## About me!
 takemioIOのブログです。主に日記ぽいこと意外をつらつらとしていきたいやつです。
