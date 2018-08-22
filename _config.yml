@@ -1,0 +1,31 @@
+baseurl: /website
+
+encoding: utf-8
+
+author: takeru hayasaka
+title: takemioIOの日記
+email: 	taketarou2@gmail.com
+description: takemioIOの日記です
+permalink: /posts/:year-:month-:day-:title.html
+timezone: Asia/Tokyo
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: [tables,autolink,strikethrough]
+exclude: ["Gemfile", "Gemfile.lock"]
+theme: minima
+gems:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
